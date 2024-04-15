@@ -15,3 +15,6 @@ This portfolio contains the following projects that I completed as part of this 
 Tecnologies used:
 - .py .html .css .js
 - .png captures
+
+Hint: This repository doesn't include virtual environments. 
+It's necessary to create an environment for each portfolio activity."
