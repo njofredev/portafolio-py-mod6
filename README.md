@@ -17,4 +17,4 @@ Tecnologies used:
 - .png captures
 
 Hint: This repository doesn't include virtual environments. 
-It's necessary to create an environment for each portfolio activity."
+It's necessary to create an environment for each portfolio activity.
