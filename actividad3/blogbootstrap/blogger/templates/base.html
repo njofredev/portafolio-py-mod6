@@ -9,7 +9,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Mi Blog</a>
+            <a class="navbar-brand" href="#">Historias de animales</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -18,16 +18,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'post_list' %}">Inicio</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'post_list' %}">Nuestras historias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'post_list' %}">Contáctanos</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Jumbotron -->
-    <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-4">Bienvenido a mi Blog</h1>
-            <p class="lead">Este es un blog creado con Django y Bootstrap.</p>
+    <div class="jumbotron container py-4">
+        <div class="container h-100 p-5 text-bg-dark rounded-3">
+            <h1 class="display-5 fw-bold">Historias de ficción de perros y gatos</h1>
+            <p class="lead">Este es un blog de historias</p>
         </div>
     </div>
 
@@ -40,7 +46,7 @@
     <!-- Footer -->
     <footer class="footer bg-dark text-light">
         <div class="container text-center">
-            <span class="text-muted">© 2024 Mi Blog</span>
+            <span class="text-muted">© 2024 Portafolio 3 - njofredev - Django</span>
         </div>
     </footer>
 
