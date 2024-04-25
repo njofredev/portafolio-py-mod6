@@ -37,9 +37,17 @@
         </div>
     </div>
 
-    <!-- Contenido dinámico -->
+    <!-- Contenido de Posts dinámicos -->
     <div class="container">
         {% block content %}
+            <h2>Últimos posts</h2>
+            <ul>
+            {% for post in Posts %}
+                <li>
+                <a href="{% url 'post_detail'%}">{{ post.title }}</a> - {{ post.created_date }}
+                </li>
+            {% endfor %}
+            </ul>
         {% endblock %}
     </div>
 
